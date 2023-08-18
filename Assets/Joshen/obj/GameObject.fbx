@@ -1,0 +1,2004 @@
+; FBX 7.4.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7400
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2023
+		Month: 6
+		Day: 23
+		Hour: 15
+		Minute: 31
+		Second: 8
+		Millisecond: 497
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.3.2"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: "Created by FBX Exporter from Unity Technologies"
+			Subject: ""
+			Author: "Unity Technologies"
+			Keywords: "Nodes Meshes Materials Textures Cameras Lights Skins Animation"
+			Revision: "1.0"
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "D:\unity\aset_test\Assets\a3h8jaf1_GameObject.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\unity\aset_test\Assets\a3h8jaf1_GameObject.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "4.1.3"
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "4.1.3"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2383236027568, "Scene", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 87
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 55
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 3
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 10
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 9
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 9
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "RelPath", "KString", "XRefUrl", "", ""
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "ClipIn", "KTime", "Time", "",0
+				P: "ClipOut", "KTime", "Time", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "Mute", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "InterlaceMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 2383232486624, "Geometry::Scene", "Mesh" {
+		Vertices: *12 {
+			a: 0.999999977648258,0.999999977648258,0.100000016391277,0.999999977648258,-0.999999977648258,0.100000016391277,-0.999999977648258,-0.999999977648258,0.100000016391277,-0.999999977648258,0.999999977648258,0.100000016391277
+		} 
+		PolygonVertexIndex: *6 {
+			a: 0,2,-2,0,3,-3
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *18 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			NormalsW: *6 {
+				a: 1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *18 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0
+			} 
+			BinormalsW: *6 {
+				a: 1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *18 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *6 {
+				a: 1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *8 {
+				a: 0.988180041313171,0.982872724533081,0.988180041313171,0.0144517421722412,0.0197595953941345,0.0144517421722412,0.0197595953941345,0.982872724533081
+			} 
+			UVIndex: *6 {
+				a: 0,2,1,0,3,2
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2383232485280, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 0.999999977648258,1.6032286609402e-08,0.101594510488212,0.999999977648258,-0.999999977648258,0.101594510488212,-0.999999977648258,-0.999999977648258,0.101594510488212,-0.999999977648258,1.6032286609402e-08,0.101594510488212,0.999999977648258,1.6032286609402e-08,0.00159452101797797,0.999999977648258,-0.999999977648258,0.00159452101797797,-0.999999977648258,-0.999999977648258,0.00159452101797797,-0.999999977648258,1.6032286609402e-08,0.00159452101797797
+		} 
+		PolygonVertexIndex: *18 {
+			a: 0,2,-2,0,3,-3,4,1,-6,4,0,-2,2,7,-7,2,3,-8
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *54 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			NormalsW: *18 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *54 {
+				a: 0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-0,0,0,-0,0,0,-0,0,0,-0,0,0,-0,0,0,-0,0,0,-0,-0,0,-0,-0,0,-0,-0,0,-0,-0,0,-0,-0,0,-0,-0
+			} 
+			BinormalsW: *18 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *54 {
+				a: -1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			TangentsW: *18 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2383232490208, "Geometry::Scene", "Mesh" {
+		Vertices: *60 {
+			a: 0.999999977648258,-0.999999977648258,0.100000004749745,-0,-0.999999977648258,0.100000004749745,0.499999988824129,-0.866025406867266,0.100000004749745,0.866025406867266,-0.499999988824129,0.100000004749745,0.999999977648258,0,0.100000004749745,0.999999977648258,0.999999977648258,0.100000004749745,0.866025406867266,0.499999988824129,0.100000004749745,0.499999988824129,0.866025406867266,0.100000004749745,-0,0.999999977648258,0.100000004749745,0.999999977648258,0,0.199999986216426,0.866025406867266,0.499999988824129,0.199999986216426,-0,-0.999999977648258,0.199999986216426,0.499999988824129,-0.866025406867266,0.199999986216426,-0.999999977648258,0.999999977648258,0.100000004749745,-0,0.999999977648258,0.199999986216426,-0.999999977648258,0.999999977648258,0.199999986216426,0.499999988824129,0.866025406867266,0.199999986216426,0.866025406867266,-0.499999988824129,0.199999986216426,-0.999999977648258,-0.999999977648258,0.100000004749745,-0.999999977648258,-0.999999977648258,0.199999986216426
+		} 
+		PolygonVertexIndex: *87 {
+			a: 0,2,-2,0,3,-3,3,0,-5,5,6,-5,6,5,-8,7,5,-9,4,10,-10,4,6,-11,1,12,-12,1,2,-13,13,14,-9,13,15,-15,6,16,-11,6,7,-17,2,17,-13,2,3,-18,7,14,-17,7,8,-15,3,9,-18,3,4,-10,1,19,-19,1,11,-20,10,17,-10,17,10,-17,17,16,-13,12,16,-15,12,14,-12,11,14,-16,11,15,-20
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *261 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,0.965925812721252,0.258819133043289,0,0.965925812721252,0.258819133043289,0,0.965925812721252,0.258819133043289,0,0.965925812721252,0.258819133043289,0,0.965925812721252,0.258819133043289,0,0.965925812721252,0.258819133043289,0,0.258819073438644,-0.965925812721252,0,0.258819073438644,-0.965925812721252,0,0.258819073438644,-0.965925812721252,0,0.258819073438644,-0.965925812721252,0,0.258819073438644,-0.965925812721252,0,0.258819073438644,-0.965925812721252,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0.707106828689575,0.707106649875641,0,0.707106828689575,0.707106649875641,0,0.707106828689575,0.707106649875641,0,0.707106828689575,0.707106649875641,0,0.707106828689575,0.707106649875641,0,0.707106828689575,0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.707106828689575,-0.707106649875641,0,0.258819073438644,0.965925812721252,0,0.258819073438644,0.965925812721252,0,0.258819073438644,0.965925812721252,0,0.258819073438644,0.965925812721252,0,0.258819073438644,0.965925812721252,0,0.258819073438644,0.965925812721252,0,0.965925812721252,-0.258819133043289,0,0.965925812721252,-0.258819133043289,0,0.965925812721252,-0.258819133043289,0,0.965925812721252,-0.258819133043289,0,0.965925812721252,-0.258819133043289,0,0.965925812721252,-0.258819133043289,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			NormalsW: *87 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *261 {
+				a: 0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-0,0.258819133043289,0,-0,0.258819133043289,0,-0,0.258819133043289,0,-0,0.258819133043289,0,-0,0.258819133043289,0,-0,0.258819133043289,-0,-0,-0.965925812721252,-0,-0,-0.965925812721252,-0,-0,-0.965925812721252,-0,-0,-0.965925812721252,-0,-0,-0.965925812721252,-0,-0,-0.965925812721252,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,0.707106649875641,0,-0,0.707106649875641,0,-0,0.707106649875641,0,-0,0.707106649875641,0,-0,0.707106649875641,0,-0,0.707106649875641,-0,-0,-0.707106649875641,-0,-0,-0.707106649875641,-0,-0,-0.707106649875641,-0,-0,-0.707106649875641,-0,-0,-0.707106649875641,-0,-0,-0.707106649875641,0,-0,0.965925812721252,0,-0,0.965925812721252,0,-0,0.965925812721252,0,-0,0.965925812721252,0,-0,0.965925812721252,0,-0,0.965925812721252,-0,-0,-0.258819133043289,-0,-0,-0.258819133043289,-0,-0,-0.258819133043289,-0,-0,-0.258819133043289,-0,-0,-0.258819133043289,-0,-0,-0.258819133043289,-0,-0,-1,-0,-0,-1,-0,-0,-1,-0,-0,-1,-0,-0,-1,-0,-0,-1,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0
+			} 
+			BinormalsW: *87 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *261 {
+				a: -1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			TangentsW: *87 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *29 {
+				a: 0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2383380882384, "Model::GameObject", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2383937956032, "Model::Street_12_Prefab", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-400,1222.91374206543,4700
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.998992919922,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2383937966032, "Model::street", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2380899794576, "Model::Street_13_Prefab", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-800,1222.91374206543,4700
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.998992919922,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714933424, "Model::street_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714931424, "Model::Street_2_Prefab__24_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-800,1222.91374206543,2300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-89.9998397827148,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714929424, "Model::street_2", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714921424, "Model::Street_2_Prefab__25_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-400,1222.91374206543,2300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,90.00048828125,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714923424, "Model::street_3", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714935424, "Model::Street_8_Prefab__3_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,1222.91374206543,1500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-89.9998397827148,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714937424, "Model::street_4", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714939424, "Model::Street_8_Prefab__4_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,1222.91374206543,1100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-89.9998397827148,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714941424, "Model::street_5", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714925424, "Model::Street_3_Prefab", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",400,1222.91374206543,1100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.99967956543,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714927424, "Model::street_6", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714915424, "Model::Street_5_Prefab__1_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",800,1222.91374206543,1500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.000659113167785108,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714911424, "Model::street_7", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714943424, "Model::Street_3_Prefab__1_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",800,1222.91374206543,1100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.99967956543,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714913424, "Model::street_8", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714945424, "Model::Street_5_Prefab__2_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",400,1222.91374206543,1500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.000659113167785108,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714947424, "Model::street_9", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714917424, "Model::Street_5_Prefab__4_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1200,1222.91374206543,1500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.000659113167785108,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714949424, "Model::street_10", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714919424, "Model::Street_3_Prefab__2_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1200,1222.91374206543,1100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.99967956543,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714961424, "Model::street_11", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714951424, "Model::Street_1_Prefab__44_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1700,1222.91374206543,-400
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714959424, "Model::street_12", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714953424, "Model::Street_1_Prefab__45_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1700,1222.91374206543,-600
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714963424, "Model::street_13", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714965424, "Model::stoneway_3__24_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1500,1222.91374206543,-500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.998977661133,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714955424, "Model::StoneWay_03", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,10.0000001490116,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714967424, "Model::stoneway_1__8_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1500,1222.91374206543,-400
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-89.999153137207,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714969424, "Model::StoneWay_01", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714957424, "Model::Street_1_Prefab__46_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1700,1222.91374206543,-800
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2386714971424, "Model::street_14", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2386714973424, "Model::Street_1_Prefab__49_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1300,1222.91374206543,-400
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848714480, "Model::street_15", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848716480, "Model::Street_1_Prefab__50_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1300,1222.91374206543,-600
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848710480, "Model::street_16", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848706480, "Model::Street_1_Prefab__51_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1300,1222.91374206543,-800
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848718480, "Model::street_17", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848704480, "Model::stoneway_3__26_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1500,1222.91374206543,-700
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-179.998977661133,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848712480, "Model::StoneWay_03_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,10.0000001490116,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848720480, "Model::Street_4_2M_prefab__22_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1700,1222.91374206543,-200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848734480, "Model::street_18", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848722480, "Model::Street_4_2M_prefab__23_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1500,1222.91374206543,-200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848724480, "Model::street_19", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848736480, "Model::Street_4_2M_prefab__24_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1300,1222.91374206543,-200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848730480, "Model::street_20", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",100,100,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848726480, "Model::Street_4_Prefab__24_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1000,1222.91374206543,-300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848728480, "Model::street_21", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848732480, "Model::Street_4_Prefab__27_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1000,1222.91374206543,-700
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.00068643392296508,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848738480, "Model::street_22", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2387848708480, "Model::Street_4_Prefab__58_", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-800,1222.91374206543,5100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-89.9998397827148,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2387848740480, "Model::street_23", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,0,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",200,200,100
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 2382069844672, "Material::street_12", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069845072, "Material::street_13", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069845472, "Material::street_2", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069848672, "Material::street_8", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069858272, "Material::street_3", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069859072, "Material::street_5", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069851872, "Material::street_1", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069849072, "Material::A2", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.558823525905609,0.558823525905609,0.558823525905609
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.558823525905609,0.558823525905609,0.558823525905609
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069849872, "Material::street_14", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2382069850272, "Material::street_4", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",1,1,1
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Video: 2383923788496, "Video::DiffuseColor_Texture", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+	}
+	Video: 2383927041904, "Video::DiffuseColor_Texture_1", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+	}
+	Video: 2383927045744, "Video::DiffuseColor_Texture_2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+	}
+	Video: 2383937156864, "Video::DiffuseColor_Texture_3", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+	}
+	Video: 2383923760032, "Video::DiffuseColor_Texture_4", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+	}
+	Video: 2387846477856, "Video::DiffuseColor_Texture_5", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+	}
+	Video: 2387846478336, "Video::DiffuseColor_Texture_6", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+	}
+	Video: 2387846479296, "Video::DiffuseColor_Texture_7", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+	}
+	Video: 2387846469216, "Video::DiffuseColor_Texture_8", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+			P: "RelPath", "KString", "XRefUrl", "", "POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+		}
+		UseMipMap: 0
+		Filename: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+	}
+	Texture: 2383927036144, "Texture::DiffuseColor_Texture", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture"
+		Media: "Video::DiffuseColor_Texture"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_12.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383383714480, "Texture::DiffuseColor_Texture_1", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_1"
+		Media: "Video::DiffuseColor_Texture_1"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_13.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383383707760, "Texture::DiffuseColor_Texture_2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_2"
+		Media: "Video::DiffuseColor_Texture_2"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_02.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383383709200, "Texture::DiffuseColor_Texture_3", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_3"
+		Media: "Video::DiffuseColor_Texture_3"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_08.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383923774528, "Texture::DiffuseColor_Texture_4", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_4"
+		Media: "Video::DiffuseColor_Texture_4"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_03.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383923777888, "Texture::DiffuseColor_Texture_5", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_5"
+		Media: "Video::DiffuseColor_Texture_5"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_05.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2380900706032, "Texture::DiffuseColor_Texture_6", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_6"
+		Media: "Video::DiffuseColor_Texture_6"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2380900709392, "Texture::DiffuseColor_Texture_7", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_7"
+		Media: "Video::DiffuseColor_Texture_7"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street_14.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2383937150144, "Texture::DiffuseColor_Texture_8", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::DiffuseColor_Texture_8"
+		Media: "Video::DiffuseColor_Texture_8"
+		FileName: "D:\unity\aset_test\Assets\POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+		RelativeFilename: "POLYGON city pack\Meshes,textures\ways_FBX\Street.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::GameObject, Model::RootNode
+	C: "OO",2383380882384,0
+	
+	;Model::Street_12_Prefab, Model::GameObject
+	C: "OO",2383937956032,2383380882384
+	
+	;Model::Street_13_Prefab, Model::GameObject
+	C: "OO",2380899794576,2383380882384
+	
+	;Model::Street_2_Prefab__24_, Model::GameObject
+	C: "OO",2386714931424,2383380882384
+	
+	;Model::Street_2_Prefab__25_, Model::GameObject
+	C: "OO",2386714921424,2383380882384
+	
+	;Model::Street_8_Prefab__3_, Model::GameObject
+	C: "OO",2386714935424,2383380882384
+	
+	;Model::Street_8_Prefab__4_, Model::GameObject
+	C: "OO",2386714939424,2383380882384
+	
+	;Model::Street_3_Prefab, Model::GameObject
+	C: "OO",2386714925424,2383380882384
+	
+	;Model::Street_5_Prefab__1_, Model::GameObject
+	C: "OO",2386714915424,2383380882384
+	
+	;Model::Street_3_Prefab__1_, Model::GameObject
+	C: "OO",2386714943424,2383380882384
+	
+	;Model::Street_5_Prefab__2_, Model::GameObject
+	C: "OO",2386714945424,2383380882384
+	
+	;Model::Street_5_Prefab__4_, Model::GameObject
+	C: "OO",2386714917424,2383380882384
+	
+	;Model::Street_3_Prefab__2_, Model::GameObject
+	C: "OO",2386714919424,2383380882384
+	
+	;Model::Street_1_Prefab__44_, Model::GameObject
+	C: "OO",2386714951424,2383380882384
+	
+	;Model::Street_1_Prefab__45_, Model::GameObject
+	C: "OO",2386714953424,2383380882384
+	
+	;Model::stoneway_3__24_, Model::GameObject
+	C: "OO",2386714965424,2383380882384
+	
+	;Model::stoneway_1__8_, Model::GameObject
+	C: "OO",2386714967424,2383380882384
+	
+	;Model::Street_1_Prefab__46_, Model::GameObject
+	C: "OO",2386714957424,2383380882384
+	
+	;Model::Street_1_Prefab__49_, Model::GameObject
+	C: "OO",2386714973424,2383380882384
+	
+	;Model::Street_1_Prefab__50_, Model::GameObject
+	C: "OO",2387848716480,2383380882384
+	
+	;Model::Street_1_Prefab__51_, Model::GameObject
+	C: "OO",2387848706480,2383380882384
+	
+	;Model::stoneway_3__26_, Model::GameObject
+	C: "OO",2387848704480,2383380882384
+	
+	;Model::Street_4_2M_prefab__22_, Model::GameObject
+	C: "OO",2387848720480,2383380882384
+	
+	;Model::Street_4_2M_prefab__23_, Model::GameObject
+	C: "OO",2387848722480,2383380882384
+	
+	;Model::Street_4_2M_prefab__24_, Model::GameObject
+	C: "OO",2387848736480,2383380882384
+	
+	;Model::Street_4_Prefab__24_, Model::GameObject
+	C: "OO",2387848726480,2383380882384
+	
+	;Model::Street_4_Prefab__27_, Model::GameObject
+	C: "OO",2387848732480,2383380882384
+	
+	;Model::Street_4_Prefab__58_, Model::GameObject
+	C: "OO",2387848708480,2383380882384
+	
+	;Model::street, Model::Street_12_Prefab
+	C: "OO",2383937966032,2383937956032
+	
+	;Material::street_12, Model::street
+	C: "OO",2382069844672,2383937966032
+	
+	;Geometry::Scene, Model::street
+	C: "OO",2383232486624,2383937966032
+	
+	;Model::street_1, Model::Street_13_Prefab
+	C: "OO",2386714933424,2380899794576
+	
+	;Material::street_13, Model::street_1
+	C: "OO",2382069845072,2386714933424
+	
+	;Geometry::Scene, Model::street_1
+	C: "OO",2383232486624,2386714933424
+	
+	;Model::street_2, Model::Street_2_Prefab__24_
+	C: "OO",2386714929424,2386714931424
+	
+	;Material::street_2, Model::street_2
+	C: "OO",2382069845472,2386714929424
+	
+	;Geometry::Scene, Model::street_2
+	C: "OO",2383232486624,2386714929424
+	
+	;Model::street_3, Model::Street_2_Prefab__25_
+	C: "OO",2386714923424,2386714921424
+	
+	;Material::street_2, Model::street_3
+	C: "OO",2382069845472,2386714923424
+	
+	;Geometry::Scene, Model::street_3
+	C: "OO",2383232486624,2386714923424
+	
+	;Model::street_4, Model::Street_8_Prefab__3_
+	C: "OO",2386714937424,2386714935424
+	
+	;Material::street_8, Model::street_4
+	C: "OO",2382069848672,2386714937424
+	
+	;Geometry::Scene, Model::street_4
+	C: "OO",2383232486624,2386714937424
+	
+	;Model::street_5, Model::Street_8_Prefab__4_
+	C: "OO",2386714941424,2386714939424
+	
+	;Material::street_8, Model::street_5
+	C: "OO",2382069848672,2386714941424
+	
+	;Geometry::Scene, Model::street_5
+	C: "OO",2383232486624,2386714941424
+	
+	;Model::street_6, Model::Street_3_Prefab
+	C: "OO",2386714927424,2386714925424
+	
+	;Material::street_3, Model::street_6
+	C: "OO",2382069858272,2386714927424
+	
+	;Geometry::Scene, Model::street_6
+	C: "OO",2383232486624,2386714927424
+	
+	;Model::street_7, Model::Street_5_Prefab__1_
+	C: "OO",2386714911424,2386714915424
+	
+	;Material::street_5, Model::street_7
+	C: "OO",2382069859072,2386714911424
+	
+	;Geometry::Scene, Model::street_7
+	C: "OO",2383232486624,2386714911424
+	
+	;Model::street_8, Model::Street_3_Prefab__1_
+	C: "OO",2386714913424,2386714943424
+	
+	;Material::street_3, Model::street_8
+	C: "OO",2382069858272,2386714913424
+	
+	;Geometry::Scene, Model::street_8
+	C: "OO",2383232486624,2386714913424
+	
+	;Model::street_9, Model::Street_5_Prefab__2_
+	C: "OO",2386714947424,2386714945424
+	
+	;Material::street_5, Model::street_9
+	C: "OO",2382069859072,2386714947424
+	
+	;Geometry::Scene, Model::street_9
+	C: "OO",2383232486624,2386714947424
+	
+	;Model::street_10, Model::Street_5_Prefab__4_
+	C: "OO",2386714949424,2386714917424
+	
+	;Material::street_5, Model::street_10
+	C: "OO",2382069859072,2386714949424
+	
+	;Geometry::Scene, Model::street_10
+	C: "OO",2383232486624,2386714949424
+	
+	;Model::street_11, Model::Street_3_Prefab__2_
+	C: "OO",2386714961424,2386714919424
+	
+	;Material::street_3, Model::street_11
+	C: "OO",2382069858272,2386714961424
+	
+	;Geometry::Scene, Model::street_11
+	C: "OO",2383232486624,2386714961424
+	
+	;Model::street_12, Model::Street_1_Prefab__44_
+	C: "OO",2386714959424,2386714951424
+	
+	;Material::street_1, Model::street_12
+	C: "OO",2382069851872,2386714959424
+	
+	;Geometry::Scene, Model::street_12
+	C: "OO",2383232486624,2386714959424
+	
+	;Model::street_13, Model::Street_1_Prefab__45_
+	C: "OO",2386714963424,2386714953424
+	
+	;Material::street_1, Model::street_13
+	C: "OO",2382069851872,2386714963424
+	
+	;Geometry::Scene, Model::street_13
+	C: "OO",2383232486624,2386714963424
+	
+	;Model::StoneWay_03, Model::stoneway_3__24_
+	C: "OO",2386714955424,2386714965424
+	
+	;Material::A2, Model::StoneWay_03
+	C: "OO",2382069849072,2386714955424
+	
+	;Geometry::Scene, Model::StoneWay_03
+	C: "OO",2383232485280,2386714955424
+	
+	;Model::StoneWay_01, Model::stoneway_1__8_
+	C: "OO",2386714969424,2386714967424
+	
+	;Material::street_14, Model::StoneWay_01
+	C: "OO",2382069849872,2386714969424
+	
+	;Material::A2, Model::StoneWay_01
+	C: "OO",2382069849072,2386714969424
+	
+	;Geometry::Scene, Model::StoneWay_01
+	C: "OO",2383232490208,2386714969424
+	
+	;Model::street_14, Model::Street_1_Prefab__46_
+	C: "OO",2386714971424,2386714957424
+	
+	;Material::street_1, Model::street_14
+	C: "OO",2382069851872,2386714971424
+	
+	;Geometry::Scene, Model::street_14
+	C: "OO",2383232486624,2386714971424
+	
+	;Model::street_15, Model::Street_1_Prefab__49_
+	C: "OO",2387848714480,2386714973424
+	
+	;Material::street_1, Model::street_15
+	C: "OO",2382069851872,2387848714480
+	
+	;Geometry::Scene, Model::street_15
+	C: "OO",2383232486624,2387848714480
+	
+	;Model::street_16, Model::Street_1_Prefab__50_
+	C: "OO",2387848710480,2387848716480
+	
+	;Material::street_1, Model::street_16
+	C: "OO",2382069851872,2387848710480
+	
+	;Geometry::Scene, Model::street_16
+	C: "OO",2383232486624,2387848710480
+	
+	;Model::street_17, Model::Street_1_Prefab__51_
+	C: "OO",2387848718480,2387848706480
+	
+	;Material::street_1, Model::street_17
+	C: "OO",2382069851872,2387848718480
+	
+	;Geometry::Scene, Model::street_17
+	C: "OO",2383232486624,2387848718480
+	
+	;Model::StoneWay_03_1, Model::stoneway_3__26_
+	C: "OO",2387848712480,2387848704480
+	
+	;Material::A2, Model::StoneWay_03_1
+	C: "OO",2382069849072,2387848712480
+	
+	;Geometry::Scene, Model::StoneWay_03_1
+	C: "OO",2383232485280,2387848712480
+	
+	;Model::street_18, Model::Street_4_2M_prefab__22_
+	C: "OO",2387848734480,2387848720480
+	
+	;Material::street_4, Model::street_18
+	C: "OO",2382069850272,2387848734480
+	
+	;Geometry::Scene, Model::street_18
+	C: "OO",2383232486624,2387848734480
+	
+	;Model::street_19, Model::Street_4_2M_prefab__23_
+	C: "OO",2387848724480,2387848722480
+	
+	;Material::street_4, Model::street_19
+	C: "OO",2382069850272,2387848724480
+	
+	;Geometry::Scene, Model::street_19
+	C: "OO",2383232486624,2387848724480
+	
+	;Model::street_20, Model::Street_4_2M_prefab__24_
+	C: "OO",2387848730480,2387848736480
+	
+	;Material::street_4, Model::street_20
+	C: "OO",2382069850272,2387848730480
+	
+	;Geometry::Scene, Model::street_20
+	C: "OO",2383232486624,2387848730480
+	
+	;Model::street_21, Model::Street_4_Prefab__24_
+	C: "OO",2387848728480,2387848726480
+	
+	;Material::street_4, Model::street_21
+	C: "OO",2382069850272,2387848728480
+	
+	;Geometry::Scene, Model::street_21
+	C: "OO",2383232486624,2387848728480
+	
+	;Model::street_22, Model::Street_4_Prefab__27_
+	C: "OO",2387848738480,2387848732480
+	
+	;Material::street_4, Model::street_22
+	C: "OO",2382069850272,2387848738480
+	
+	;Geometry::Scene, Model::street_22
+	C: "OO",2383232486624,2387848738480
+	
+	;Model::street_23, Model::Street_4_Prefab__58_
+	C: "OO",2387848740480,2387848708480
+	
+	;Material::street_4, Model::street_23
+	C: "OO",2382069850272,2387848740480
+	
+	;Geometry::Scene, Model::street_23
+	C: "OO",2383232486624,2387848740480
+	
+	;Texture::DiffuseColor_Texture, Material::street_12
+	C: "OO",2383927036144,2382069844672
+	
+	;Texture::DiffuseColor_Texture, Material::street_12
+	C: "OP",2383927036144,2382069844672, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture, Texture::DiffuseColor_Texture
+	C: "OO",2383923788496,2383927036144
+	
+	;Texture::DiffuseColor_Texture_1, Material::street_13
+	C: "OO",2383383714480,2382069845072
+	
+	;Texture::DiffuseColor_Texture_1, Material::street_13
+	C: "OP",2383383714480,2382069845072, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_1, Texture::DiffuseColor_Texture_1
+	C: "OO",2383927041904,2383383714480
+	
+	;Texture::DiffuseColor_Texture_2, Material::street_2
+	C: "OO",2383383707760,2382069845472
+	
+	;Texture::DiffuseColor_Texture_2, Material::street_2
+	C: "OP",2383383707760,2382069845472, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_2, Texture::DiffuseColor_Texture_2
+	C: "OO",2383927045744,2383383707760
+	
+	;Texture::DiffuseColor_Texture_3, Material::street_8
+	C: "OO",2383383709200,2382069848672
+	
+	;Texture::DiffuseColor_Texture_3, Material::street_8
+	C: "OP",2383383709200,2382069848672, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_3, Texture::DiffuseColor_Texture_3
+	C: "OO",2383937156864,2383383709200
+	
+	;Texture::DiffuseColor_Texture_4, Material::street_3
+	C: "OO",2383923774528,2382069858272
+	
+	;Texture::DiffuseColor_Texture_4, Material::street_3
+	C: "OP",2383923774528,2382069858272, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_4, Texture::DiffuseColor_Texture_4
+	C: "OO",2383923760032,2383923774528
+	
+	;Texture::DiffuseColor_Texture_5, Material::street_5
+	C: "OO",2383923777888,2382069859072
+	
+	;Texture::DiffuseColor_Texture_5, Material::street_5
+	C: "OP",2383923777888,2382069859072, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_5, Texture::DiffuseColor_Texture_5
+	C: "OO",2387846477856,2383923777888
+	
+	;Texture::DiffuseColor_Texture_6, Material::street_1
+	C: "OO",2380900706032,2382069851872
+	
+	;Texture::DiffuseColor_Texture_6, Material::street_1
+	C: "OP",2380900706032,2382069851872, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_6, Texture::DiffuseColor_Texture_6
+	C: "OO",2387846478336,2380900706032
+	
+	;Texture::DiffuseColor_Texture_7, Material::street_14
+	C: "OO",2380900709392,2382069849872
+	
+	;Texture::DiffuseColor_Texture_7, Material::street_14
+	C: "OP",2380900709392,2382069849872, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_7, Texture::DiffuseColor_Texture_7
+	C: "OO",2387846479296,2380900709392
+	
+	;Texture::DiffuseColor_Texture_8, Material::street_4
+	C: "OO",2383937150144,2382069850272
+	
+	;Texture::DiffuseColor_Texture_8, Material::street_4
+	C: "OP",2383937150144,2382069850272, "DiffuseColor"
+	
+	;Video::DiffuseColor_Texture_8, Texture::DiffuseColor_Texture_8
+	C: "OO",2387846469216,2383937150144
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
