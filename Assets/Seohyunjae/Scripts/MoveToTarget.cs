@@ -6,7 +6,7 @@ public class MoveToTarget : MonoBehaviour
     public Transform[] paths;
     public GameObject fireworks;
     public int i = 0;
-    public float speed = 5f; // 이동 속도
+    public float speed = 5f; 
 
     private void Start()
     {
